@@ -15,7 +15,6 @@ El proyecto incluye:
 
 - 🐍 Simulaciones desarrolladas en Python/Jupyter Notebook.
 - ⚙️ Descripciones de hardware en VHDL.
-- 🧠 Diseño de máquinas de estados finitos (FSM).
 - 🖼️ Diagramas de bloques y arquitectura del sistema.
 ---
 
