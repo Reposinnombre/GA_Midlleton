@@ -17,8 +17,6 @@ El proyecto incluye:
 - ⚙️ Descripciones de hardware en VHDL.
 - 🧠 Diseño de máquinas de estados finitos (FSM).
 - 🖼️ Diagramas de bloques y arquitectura del sistema.
-- 📊 Resultados de simulación y validación.
-
 ---
 
 # 📂 Organización del repositorio
