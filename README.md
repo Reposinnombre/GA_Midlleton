@@ -1,79 +1,125 @@
-Algoritmo Genético para Estimación de Ruido Middleton Clase A
-Descripción
+# 🧬 Algoritmo Genético para Estimación de Ruido Middleton Clase A
 
-Este repositorio contiene el análisis, diseño e implementación de un algoritmo genético orientado a la estimación de ruido Middleton Clase A.
+<p align="center">
+  Implementación y validación de una arquitectura basada en algoritmos genéticos
+  para la estimación de parámetros del modelo de ruido impulsivo Middleton Clase A.
+</p>
+
+---
+
+## 📖 Descripción
+
+Este repositorio contiene el desarrollo completo del análisis, simulación e implementación hardware de un algoritmo genético aplicado a la estimación de ruido Middleton Clase A.
 
 El proyecto incluye:
 
-Archivos de simulación y validación desarrollados en Python/Jupyter Notebook.
-Descripciones de hardware en VHDL de los distintos bloques funcionales.
-Figuras descriptivas de la arquitectura implementada.
-Diagramas de máquina de estados (FSM).
-Resultados de simulación y análisis de desempeño.
-Estructura del repositorio
+- 🐍 Simulaciones desarrolladas en Python/Jupyter Notebook.
+- ⚙️ Descripciones de hardware en VHDL.
+- 🧠 Diseño de máquinas de estados finitos (FSM).
+- 🖼️ Diagramas de bloques y arquitectura del sistema.
+- 📊 Resultados de simulación y validación.
+
+---
+
+# 📂 Organización del repositorio
+
+```bash
+.
 ├── notebooks/
 │   └── Algoritmos_geneticos.ipynb
 │
 ├── vhdl/
-│   ├── bloque_1/
-│   ├── bloque_2/
-│   └── ...
+│   ├── control/
+│   ├── operadores_geneticos/
+│   ├── memoria/
+│   ├── fitness/
+│   └── top/
 │
 ├── figures/
-│   ├── fsm/
 │   ├── arquitectura/
+│   ├── fsm/
 │   └── resultados/
 │
-├── simulations/
-│   └── ...
-│
 └── README.md
-Contenido principal
-Simulación en Python
+```
+
+---
+
+# 🧪 Simulación en Python
 
 El notebook principal contiene:
 
-Modelado del ruido Middleton Clase A.
-Implementación del algoritmo genético.
-Evaluación de convergencia.
-Validación de resultados.
-Análisis de desempeño.
+✔️ Modelado del ruido Middleton Clase A  
+✔️ Implementación del algoritmo genético  
+✔️ Evaluación de convergencia  
+✔️ Validación de resultados  
+✔️ Análisis de desempeño  
 
-Archivo principal:
+📄 Archivo principal:
 
-Algoritmos_geneticos.ipynb
-Implementación en Hardware
+```bash
+/notebooks/Algoritmos_geneticos.ipynb
+```
 
-La implementación hardware fue desarrollada en VHDL e incluye:
+---
 
-Bloques funcionales del algoritmo genético.
-Unidades de control.
-Máquina de estados finitos (FSM).
-Módulos de evaluación y selección.
-Componentes auxiliares.
-Figuras y documentación
+# ⚙️ Implementación Hardware
 
-Se incluyen figuras descriptivas correspondientes a:
+La implementación hardware fue desarrollada en VHDL e incluye distintos bloques funcionales del sistema:
 
-Arquitectura general del sistema.
-Diagramas de bloques.
-Máquinas de estados.
-Resultados de simulación.
-Esquemas de implementación hardware.
-Objetivo del proyecto
+- Unidad de control
+- Máquina de estados finitos (FSM)
+- Operadores genéticos
+- Evaluación de fitness
+- Memorias y registros auxiliares
+- Integración top-level
 
-Desarrollar una arquitectura hardware basada en algoritmos genéticos para la estimación de parámetros del modelo de ruido Middleton Clase A, permitiendo futuras implementaciones en FPGA o sistemas embebidos.
+📁 Código fuente:
 
-Herramientas utilizadas
-Python
-Jupyter Notebook
-VHDL
-ModelSim / QuestaSim (opcional, según corresponda)
-Vivado / Quartus (según FPGA utilizada)
-Autor
+```bash
+/vhdl
+```
 
-[Tu nombre]
+---
 
-Estado del proyecto
+# 🖼️ Figuras y documentación
 
-🚧 Proyecto en desarrollo.
+El repositorio incluye documentación gráfica utilizada durante el diseño y validación:
+
+- Arquitectura general del sistema
+- Diagramas de bloques
+- Máquinas de estados
+- Resultados de simulación
+- Esquemas de implementación hardware
+
+📁 Directorio:
+
+```bash
+/figures
+```
+
+---
+
+# 🎯 Objetivo del proyecto
+
+Desarrollar una arquitectura hardware eficiente basada en algoritmos genéticos para la estimación de parámetros asociados al modelo de ruido impulsivo Middleton Clase A, con posibilidad de implementación sobre FPGA.
+
+---
+
+# 🛠️ Herramientas utilizadas
+
+| Herramienta | Uso |
+|---|---|
+| Python | Simulación y validación |
+| Jupyter Notebook | Desarrollo del algoritmo |
+| VHDL | Implementación hardware |
+| ModelSim / QuestaSim | Simulación digital |
+| Vivado / Quartus | Síntesis FPGA |
+
+---
+
+# 🚧 Estado del proyecto
+
+<p align="center">
+  <b>Proyecto actualmente en desarrollo</b>
+</p>
