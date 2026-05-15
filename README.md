@@ -32,11 +32,12 @@ El proyecto incluye:
 │   ├── fitness/
 │   └── top/
 │
-├── figures/
+├── Readme/
 │   ├── arquitectura_general/
 │   ├── fsm/
-│   └── Bloques/
-│
+│   └── Proceso_evolutivo/
+|   └── Operador_binario/
+│   └── Operador_vecindad/
 └── README.md
 ```
 
