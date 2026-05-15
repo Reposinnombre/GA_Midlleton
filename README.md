@@ -34,9 +34,9 @@ El proyecto incluye:
 │   └── top/
 │
 ├── figures/
-│   ├── arquitectura/
+│   ├── arquitectura_general/
 │   ├── fsm/
-│   └── resultados/
+│   └── Bloques/
 │
 └── README.md
 ```
@@ -83,12 +83,9 @@ La implementación hardware fue desarrollada en VHDL e incluye distintos bloques
 # 🖼️ Figuras y documentación
 
 El repositorio incluye documentación gráfica utilizada durante el diseño y validación:
-
-- Arquitectura general del sistema
+- Arquitectura general del sistema para implementacion en Hardware
 - Diagramas de bloques
 - Máquinas de estados
-- Resultados de simulación
-- Esquemas de implementación hardware
 
 📁 Directorio:
 
