@@ -38,6 +38,7 @@ El proyecto incluye:
 │   └── Proceso_evolutivo/
 |   └── Operador_binario/
 │   └── Operador_vecindad/
+│   └── Bloque funcion de costo/
 └── README.md
 ```
 
