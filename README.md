@@ -39,6 +39,7 @@ El proyecto incluye:
 |   └── Operador_binario/
 │   └── Operador_vecindad/
 │   └── Bloque funcion de costo/
+│   └── Elite_y_guardar/
 └── README.md
 ```
 
